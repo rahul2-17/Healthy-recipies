@@ -1,0 +1,58 @@
+*{
+    background-color: darksalmon;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-wrap: anywhere;
+}
+
+#box1{
+    height:600px; 
+    width:30px;
+    overflow-wrap: break-word;
+    justify-content: center;
+    border: 2px;
+    text-align: left;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+#box2{
+    height:600px; 
+    width:40px;
+    overflow-wrap: break-word;
+    justify-content: center;
+    border: 2px solid;
+    text-align: left;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+#box3{
+    height:600px; 
+    width:40px;
+    overflow-wrap: break-word;
+    justify-content: center;
+    border: 2px solid;
+    text-align: left;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+
+.imags{
+    height:500px;
+    padding: 40px;
+    align-self: center;
+}
+
+.text{
+    height: 90px;
+    width: 90px;
+    align-self: center;
+    background-color: aqua;
+    align-items: center;
+    text-align: center;
+}
+
+p{
+    margin: 720px;
+}
