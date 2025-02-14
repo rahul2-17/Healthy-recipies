@@ -1,15 +1,52 @@
-<html>
-    <head>
-        <title>Healthy recipies</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-
-    <body bgcolor="beige">
-        <h3>Healthy recipies</h3>
-        <center><h4><a href="breakfast.html">Breakfast</a></h4></center>
-        <center><h4><a href="lunch.html">Lunch</a></h4></center>
-        <center><h4><a href="dinner.html">Dinner</a></h4></center>
-
-        
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Recipes</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f5f5dc;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h3 {
+            color: #2c3e50;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        .menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .menu a {
+            display: block;
+            width: 200px;
+            padding: 15px;
+            margin: 10px;
+            background-color: #27ae60;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 10px;
+            transition: 0.3s ease;
+        }
+        .menu a:hover {
+            background-color: #2ecc71;
+        }
+    </style>
+</head>
+<body>
+    <h3>Healthy Recipes</h3>
+    <div class="menu">
+        <a href="breakfast.html">Breakfast</a>
+        <a href="lunch.html">Lunch</a>
+        <a href="dinner.html">Dinner</a>
+    </div>
+</body>
 </html>
